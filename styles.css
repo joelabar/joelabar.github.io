@@ -1,0 +1,119 @@
+body
+{background-image: -webkit-gradient(
+	linear,
+	left top,
+	right bottom,
+	color-stop(0, #6E75F0),
+	color-stop(0.99, #91FFF0),
+	color-stop(1, #91FF9C)
+);
+background-image: -o-linear-gradient(right bottom, #6E75F0 0%, #91FFF0 99%, #91FF9C 100%);
+background-image: -moz-linear-gradient(right bottom, #6E75F0 0%, #91FFF0 99%, #91FF9C 100%);
+background-image: -webkit-linear-gradient(right bottom, #6E75F0 0%, #91FFF0 99%, #91FF9C 100%);
+background-image: -ms-linear-gradient(right bottom, #6E75F0 0%, #91FFF0 99%, #91FF9C 100%);
+background-image: linear-gradient(to right bottom, #6E75F0 0%, #91FFF0 99%, #91FF9C 100%);
+background-repeat: no-repeat;
+background-attachment: fixed;
+margin:0px;
+}
+
+
+/* La div est noire pour qu'on puisse la repérer */
+
+#un{
+	position: relative;
+	background-color: white;
+	height: 15px;
+/* 1282px normalement */
+	margin-left: auto;
+	margin-right: auto;
+	opacity: 0.25;
+	padding-top: 10px;
+	text-align: center; /* centrage horizontal du texte */
+	line-height:7.5px; /* centrage vertical du texte */
+	font-size: 18px;
+	font-family: arial;
+	color: black;
+}
+
+#img1{
+	display:block; /* important c'est pour que l'image soit en propriété block pour prendre toute la largeur */
+	opacity: 0.85;
+	margin-top: 50px;
+	width: 130px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.images{
+		border: 0px solid black;
+	text-align: center;
+}
+
+#img2{
+	display: inline-block;
+	border: 0px solid black;
+	width: 20px;
+	margin-right: 12px;
+}
+
+#img3{
+	display: inline-block;
+	border: 0px solid black;
+	width: 19px;
+	margin-left: 10px;
+	margin-top: 5px;
+}
+
+bouton{
+	display: block;
+	border-radius: 5px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 170px;
+	background-color: white;
+	opacity: 0.8;
+	text-align: center;
+	margin-top: 40px;
+	line-height:40px;
+	font-family: Arial;
+	box-shadow: 0px 1px 3px #FF0000; 
+}
+
+.bouton a {
+display: block;
+	border-radius: 5px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 170px;
+	background-color: white;
+	opacity: 0.8;
+	text-align: center;
+	margin-top: 40px;
+	line-height:40px;
+	font-family: Arial;
+	box-shadow: 0px 1px 1px #000000;  
+}
+
+a, a:hover, a:visited, a:active /* LES LIENS */
+{
+	opacity: 0.8;
+	color:#000;
+	text-decoration:none;
+}
+
+#trois{
+	background-color: white;
+	opacity: 0.7;
+	margin-right: auto;
+	margin-left: auto;
+	height: 250px;
+	margin-top: 30px;
+}
+
+#texte{
+	opacity: 0.8;
+	color: black;
+	text-align: center;
+	font-family: arial;
+	padding: 10px 0px 0px 0px;
