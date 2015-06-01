@@ -65,7 +65,8 @@ margin:0px;
 	margin-top: 5px;
 }
 
-#deux{
+bouton{
+	display: block;
 	border-radius: 5px;
 	margin-right: auto;
 	margin-left: auto;
@@ -77,6 +78,21 @@ margin:0px;
 	line-height:40px;
 	font-family: Arial;
 	box-shadow: 0px 1px 3px #FF0000; 
+}
+
+.bouton a {
+display: block;
+	border-radius: 5px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 170px;
+	background-color: white;
+	opacity: 0.8;
+	text-align: center;
+	margin-top: 40px;
+	line-height:40px;
+	font-family: Arial;
+	box-shadow: 0px 1px 1px #000000;  
 }
 
 a, a:hover, a:visited, a:active /* LES LIENS */
